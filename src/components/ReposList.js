@@ -24,26 +24,26 @@ export default class ReposList extends Component {
   render() {
     const { repos, loading } = this.state
 
-    return (
-      <Fragment>
-        {/* <h5>Recently worked on:</h5> */}
-        <ul
-          className="repo-list"
-          style={{
-            display: 'flex',
-            listStyleType: 'none',
-            padding: 0,
-            margin: 0
-          }}
-        >
-          <li className="repo-wrapper" style={{ marginRight: 6, width: '50%' }}>
-            <Repo loading={loading} repo={repos[0]} />
-          </li>
-          <li className="repo-wrapper" style={{ marginLeft: 6, width: '50%' }}>
-            <Repo loading={loading} repo={repos[1]} />
-          </li>
-        </ul>
-      </Fragment>
-    )
+    // return (
+    //   <Fragment>
+    //     <h5>Recently worked on:</h5>
+    //     <ul
+    //       className="repo-list"
+    //       style={{
+    //         display: 'flex',
+    //         listStyleType: 'none',
+    //         padding: 0,
+    //         margin: 0
+    //       }}
+    //     >
+    //       <li className="repo-wrapper" style={{ marginRight: 6, width: '50%' }}>
+    //         <Repo loading={loading} repo={repos[0]} />
+    //       </li>
+    //       <li className="repo-wrapper" style={{ marginLeft: 6, width: '50%' }}>
+    //         <Repo loading={loading} repo={repos[1]} />
+    //       </li>
+    //     </ul>
+    //   </Fragment>
+    // )
   }
 }

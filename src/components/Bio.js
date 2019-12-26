@@ -3,7 +3,7 @@ import React from 'react'
 // Import typefaces
 import 'inter-ui'
 
-import profilePic from './profile-pic.png'
+import profilePic from './profile-pic.jpg'
 import { rhythm } from '../utils/typography'
 
 export default function Bio() {
@@ -17,7 +17,7 @@ export default function Bio() {
     >
       <img
         src={profilePic}
-        alt="Jason Etcovitch"
+        alt="Jerwin Samuel"
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
@@ -27,15 +27,15 @@ export default function Bio() {
       />
       <p style={{ marginBottom: 0 }}>
         👋 Personal blog by{' '}
-        <a href="https://twitter.com/JasonEtco" itemProp="name">
-          Jason Etcovitch
+        <a href="https://jerwin.dev" itemProp="name">
+          Jerwin Samuel
         </a>
         <br />
-        🐙 <span itemProp="jobTitle">Engineer</span> at{' '}
-        <a href="https://github.com/JasonEtco">GitHub</a>
+        ⭐️ <span itemProp="jobTitle">Software Engineer</span> -{' '}
+        <a href="https://github.com/jerwins">GitHub</a>
         <br />
         🐦 Follow me on{' '}
-        <a href="https://twitter.com/JasonEtco" itemProp="url">
+        <a href="https://twitter.com/jerwinsamuel" itemProp="url">
           Twitter
         </a>
       </p>
