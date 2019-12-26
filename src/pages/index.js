@@ -42,15 +42,22 @@ export default function BlogIndex(props) {
             padding: 0
           }}
         >
-          Jason
+          Jerwin
           <br />
-          Etcovitch
+          Samuel
         </h1>
 
         <p style={{ alignSelf: 'flex-end', marginBottom: 0, marginLeft: 16 }}>
-          🐙 Engineer at <a href="https://github.com/JasonEtco">GitHub</a>
+          🐍 Software Engineer
           <br />
-          🐦 Follow me on <a href="https://twitter.com/JasonEtco">Twitter</a>
+          💻 My <a href="https://github.com/jerwins">GitHub</a> page
+          <br />
+          🦄 Follow me on <a href="https://twitter.com/Jerwinsamuel">Twitter</a>
+          <br />
+          😍 <a href="https://jerwin.dev/"> Home </a> -{' '}
+          <a href="https://jerwin.dev/tags/project">projects</a> -{' '}
+          <a href="https://jerwin.dev/About/">about me</a> -{' '}
+          <a href="mailto: jerwinsamuel@gmail.com">contact</a>
         </p>
       </div>
 
@@ -127,6 +134,8 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
+            tags
+            draft
             spoiler
           }
         }
