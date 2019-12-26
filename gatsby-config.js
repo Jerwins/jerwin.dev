@@ -3,7 +3,7 @@ module.exports = {
     title: 'Jason Etcovitch · jasonet.co',
     author: 'Jason Etcovitch',
     description: 'Personal blog by Jason Etcovitch.',
-    siteUrl: 'https://jasonet.co',
+    siteUrl: 'https://jerwin.dev',
     social: {
       twitter: '@JasonEtco'
     }

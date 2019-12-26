@@ -29,7 +29,7 @@ const options = {
   method: 'POST',
   headers: {
     Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
-    'User-Agent': 'Jerwins',
+    'User-Agent': '58484dd61ab79b6efc0b',
     'Content-Type': 'application/json',
     'Content-Length': data.length
   }

@@ -26,7 +26,7 @@ export default class ReposList extends Component {
 
     return (
       <Fragment>
-        <h5>Recently worked on:</h5>
+        {/* <h5>Recently worked on:</h5> */}
         <ul
           className="repo-list"
           style={{
