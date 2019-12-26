@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Jason Etcovitch · jasonet.co',
-    author: 'Jason Etcovitch',
-    description: 'Personal blog by Jason Etcovitch.',
+    title: 'Jerwin Samuel',
+    author: 'Jerwin Samuel',
+    description: 'Personal blog by Jerwin Samuel.',
     siteUrl: 'https://jerwin.dev',
     social: {
-      twitter: '@JasonEtco'
+      twitter: '@Jerwinsamuel'
     }
   },
   pathPrefix: '/',
@@ -51,14 +51,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-72564268-1`
+        trackingId: `UA-132390451-1`
       }
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jasonet.co`,
-        short_name: `jasonet.co`,
+        name: `jerwin.dev`,
+        short_name: `jerwin.dev`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#f26d21`,
