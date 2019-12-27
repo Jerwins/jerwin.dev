@@ -66,8 +66,9 @@ plt.show()
 
 You can see from the graph that the difference between linear plots F1 and F2 is insignificant and not as large when compared to F3 which scales quadractically. 
 
-F1, F2 = Linear scaling  = O(n)
-F3 = Quadractic scaling  = O(n^2)
+F1, F2 = Linear scaling  = O(n)   
+F3 = Quadractic scaling  = O(<a href="https://www.codecogs.com/eqnedit.php?latex=n^2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?n^2" title="n^2" /></a>)
+
 
 Ultimately, we are only concerned with the growth of the time and not the intricate details of the time itself. This is where we use `Big O notation` which focuses on the `order of growth` of that function.
 

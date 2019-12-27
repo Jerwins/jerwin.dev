@@ -9,8 +9,8 @@ import { rhythm, scale, colors } from '../utils/typography'
 import { shape, string } from 'prop-types'
 import p from '../utils/shared-props'
 
-const GITHUB_USERNAME = 'JasonEtco'
-const GITHUB_REPO_NAME = 'jasonet.co'
+const GITHUB_USERNAME = 'Jerwins'
+const GITHUB_REPO_NAME = 'jerwin.dev'
 
 export default function BlogPostTemplate(props) {
   const post = props.data.markdownRemark
@@ -20,7 +20,7 @@ export default function BlogPostTemplate(props) {
   const urlSlug = slug.slice(1, -1)
   const editUrl = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/master/src/pages/${urlSlug}.md`
   const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://jasonet.co${slug}`
+    `https://jerwin.dev${slug}`
   )}`
   return (
     <Layout title={siteTitle}>
