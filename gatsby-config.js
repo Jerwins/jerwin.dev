@@ -28,7 +28,7 @@ module.exports = {
               maxWidth: 590
             }
           },
-          //new plugin
+          // new plugin
           {
             resolve: `gatsby-remark-katex`,
             options: {
