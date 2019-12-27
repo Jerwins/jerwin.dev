@@ -1,6 +1,6 @@
 ---
-title: "Random Acts of Kindness on Twitter 💜 - #100DaysOfCode"
-date: '2019-10-03'
+title: "Random Acts of Kindness on Twitter - #100DaysOfCode"
+date: '2019-10-04'
 spoiler: "Bored on Twitter? Do this and make someone's day."
 ---
 

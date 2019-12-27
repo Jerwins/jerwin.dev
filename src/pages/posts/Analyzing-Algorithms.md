@@ -1,6 +1,6 @@
 ---
 title: "[DS & A] Series: Analysis of Algorithms - #1"
-date: '2019-10-05'
+date: '2019-10-10'
 spoiler: "First of many blog posts of the Data Structures and Algorithms series."
 ---
 
