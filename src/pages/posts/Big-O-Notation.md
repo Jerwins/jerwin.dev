@@ -6,7 +6,7 @@ spoiler: "Learn more about the purpose and usage of Big O notation"
 
 ## What is Big O notation?
 
-Tool used to analyze the running time of an algorithm. Big O notation allows you to analyze algorithms in terms of overall efficiency and scaleability.
+Tool used to analyze the running time of an algorithm. Big O notation allows you to analyze algorithms in terms of overall efficiency and scalability.
 
 ## Why is this needed?
 
@@ -64,12 +64,12 @@ plt.show()
 ```
 <img src="https://i.imgur.com/EzyxYuL.png"></img>
 
-You can see from the graph that the difference between linear plots F1 and F2 is insignificant and not as large when compared to F3 which scales quadractically. We are only worried about the growth of the time of the algorithm and not the actual details of the time itself.
+You can see from the graph that the difference between linear plots F1 and F2 is insignificant and not as large when compared to F3 which scales quadractically. 
 
-F1, F2 = Linear scaling  
-F3 = Quadractic scaling
+F1, F2 = Linear scaling  = O(n)
+F3 = Quadractic scaling  = O(n^2)
 
-Ultimately, we are only concerned with the growth of the time and not the details of the time itself. This is where we use `Big O notation` gives the `order of growth` of that function.
+Ultimately, we are only concerned with the growth of the time and not the intricate details of the time itself. This is where we use `Big O notation` which focuses on the `order of growth` of that function.
 
 ### Core defintion of Big O notation
 
