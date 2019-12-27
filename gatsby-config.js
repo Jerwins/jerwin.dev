@@ -28,6 +28,14 @@ module.exports = {
               maxWidth: 590
             }
           },
+          //new plugin
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
+              strict: `ignore`
+            }
+          },
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
@@ -43,7 +51,8 @@ module.exports = {
           },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
-          `gatsby-remark-emoji`
+          `gatsby-remark-emoji`,
+          `gatsby-remark-katex`
         ]
       }
     },
