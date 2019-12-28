@@ -8,7 +8,29 @@ spoiler: "Learn more about the purpose and usage of Big O notation"
 
 Tool used to analyze the running time of an algorithm. Big O notation allows you to analyze algorithms in terms of overall efficiency and scalability.
 
+
+<blockquote> <b>Definition:</b> Big-O Notation gives an upper bound of the complexity in the worst case, helping to quantify performance as the input size becomes arbitrarily large.</blockquote>
+
+Let n be the size of the input. Below are the complexities you'd commonly see people convey when they highlight the complexity of an algorithm. These are listed in the order of increasing complexity.
+
+Time | Notation
+------------ | -------------
+Constant | O(1)
+Logarithmic | O(log(n))
+Linear | O(n)
+Linearithmic | O(nlog(n))
+Quadratic | O($n^2$)
+Cubic | O($n^3$)
+Exponential | O($b^n$), where b > 1
+Factorial | O(n!)
+
 ## Why is this needed?
+
+To answer the following questions:
+<ul>
+<li> How much time does this algorithm need to finish?
+<li> How much space does this algorithm need for it's computation?
+</ul>
 
 Let me modify the algorithm's implementation for the [same problem](https://jerwin.dev/posts/Analyzing-Algorithms/#example-of-worst-case-time-analysis-of-a-simple-algorithm) and plot them to get a better understanding of whey need such notation.
 
@@ -110,6 +132,13 @@ plt.scatter(xi, yi, color='black', label="Xo")
 plt.legend()
 plt.show()
 ```
+## Classic examples - Cheat sheet
+<ul>
+<li>Finding all subsets of a set - O($2^n$)
+<li>Finding all permutations of a string - O(n!)
+<li>Sorting using mergesort - O(nlogn(n))
+<li>Iterating over all the cells in a matrix of size n x m - O(nm)
+</ul>
 
 ## Conclusion
 
