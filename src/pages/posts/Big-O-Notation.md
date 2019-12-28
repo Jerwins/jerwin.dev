@@ -132,9 +132,10 @@ plt.scatter(xi, yi, color='black', label="Xo")
 plt.legend()
 plt.show()
 ```
+
 ## Classic examples - Cheat sheet
 <ul>
-<li>Finding all subsets of a set - O($2^n$)
+<li>Finding all subsets of a set - O(n^2)
 <li>Finding all permutations of a string - O(n!)
 <li>Sorting using mergesort - O(nlogn(n))
 <li>Iterating over all the cells in a matrix of size n x m - O(nm)
