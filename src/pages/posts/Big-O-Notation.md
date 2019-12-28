@@ -10,7 +10,7 @@ Tool used to analyze the running time of an algorithm. Big O notation allows you
 
 ## Why is this needed?
 
-Let me modify the algorithm's implementation for the [same problem](https://jerwin.dev/posts/Analyzing-Algorithms/#example-of-worst-case-time-analysis-of-a-simple-algorithm).
+Let me modify the algorithm's implementation for the [same problem](https://jerwin.dev/posts/Analyzing-Algorithms/#example-of-worst-case-time-analysis-of-a-simple-algorithm) and plot them to get a better understanding of whey need such notation.
 
 ```python
 def sumofall(N):
@@ -39,7 +39,7 @@ func_1 = 4N + 2
 func_2 = 3N + 2  
 func_3 = $3N^2 + 2$ (reference)
 
-## Comparing the functions in a scalable plot
+### Comparing the functions in a scalable plot
 
 Let's plot the two functions and use another function ($N^2$) as well for reference.
 
@@ -66,12 +66,53 @@ plt.show()
 
 You can see from the graph that the difference between linear plots F1 and F2 is insignificant and not as large when compared to F3 which scales quadractically. 
 
-F1, F2 = Linear scaling  = O(n)   
-F3 = Quadractic scaling  = O($n^2$)
+F1, F2 = Linear scaling = $O(n)$   
+F3 = Quadratic scaling  = $O(n^2)$
 
 
 Ultimately, we are only concerned with the growth of the time and not the intricate details of the time itself. This is where we use `Big O notation` which focuses on the `order of growth` of that function.
 
-### Core defintion of Big O notation
+## Core defintion of Big O notation
 
-// Developing....
+If we have a function $f(x)$, there exists a function $g(x)$ such that $g(x)$ is >= $f(x)$ for all values of x where x > x$_{o}$.
+
+<img src = "https://i.imgur.com/zeLVycZ.png"></img>
+
+So, we can say that `Big O notation` for $f(x)$ is O($g(x)$). $g(x)$ gives the upper bound on the growth of $f(x)$.
+
+`example 1:` $f(n)$ = 10n + 2
+
+In this function, the dominant term contributing to the growth of the function is 10n. Also, we don't need to worry about the constants and only focus on the growth. 
+
+So the order of the $f(n)$ is $O(n)$.
+
+`example 2:` $f(n)$ = 3$n^2$ + 100n + 30
+
+In this second function, the dominant term contributing to the growth of the function is 3$n^2$. Since we don't need to worry about the constants associated and only focus on the growing component, the order of the fuctions is $O(n^2)$.
+
+The `matplotlib` python code looks like the below,
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+m1, b1 = 0.6, 2.0  # slope & intercept (line 1)
+m2, b2 = 2.0, -1.0  # slope & intercept (line 2)
+x = np.linspace(-10, 10, 50)
+plt.plot(x, x*m1+b1, 'k', color='green', label='f(x)')
+plt.plot(x, x*m2+b2, 'k', color='purple', label='g(x)')
+plt.xlim(0, 10)
+plt.ylim(0, 10)
+xi = (b1-b2) / (m2-m1)
+yi = m1 * xi + b1
+plt.axvline(x=xi, color='blue', linestyle='--')
+plt.scatter(xi, yi, color='black', label="Xo")
+plt.legend()
+plt.show()
+```
+
+## Conclusion
+
+This is how you determine the Big O Notation of different functions. When we apply this to our time functions which we have obtained by counting the primitive operations in the worst case of an algorithm, we can compare different algorithms by comparing the different Big O's of their time functions. That will give us a good estimate of which algorithm will take signicantly longer than others to execute.
+
+Therefore, Big O notation is a very important tool we use when comparing algorithms based on the growth of the time w.r.t the input size.
