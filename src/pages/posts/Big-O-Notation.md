@@ -35,9 +35,9 @@ def sumofall(N):
 ```
 Now the time taken changes to `4N + 2` compared to the previous time of `3N + 2`.
  
-func_1 = 4N + 2  
-func_2 = 3N + 2  
-func_3 = $3N^2 + 2$ (reference)
+F1 = $4N + 2$  
+F2 = $3N + 2$  
+F3 = $3N^2 + 2$ (reference)
 
 ### Comparing the functions in a scalable plot
 
