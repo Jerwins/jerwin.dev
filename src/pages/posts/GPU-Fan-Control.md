@@ -1,14 +1,14 @@
 ---
 title: "Control your GPU fan speed in Ubuntu 19.10"
 date: '2019-12-31'
-spoiler: "Learn about data structures."
+spoiler: "Enable fan control for your graphics card in linux."
 ---
 
 If you are like me wondering how to control your graphics card's fan speed, the below might help you.
 
 I own a EVGA 1080 Ti SC Black. Using EVGA Precision tool has always been a breeze for me. Switching to linux I found that there were no supporting software by EVGA. Their forums posts all revolved around how "the audience is low on linux" and "people could just rely on the BIOS automatic fan control". Cycling through countless posts and seeing these kinda irked me.
 
-I found an article on upubuntu that helped me. 
+Do the following to enable fan control.
 
 <ul>
 <li> First enter the Nvidia System Management Interface command in your terminal - `nvidia-smi`. It should provide you with the monitored details of your card like fan speed, GPU temp etc. like the below,</li>
@@ -16,7 +16,7 @@ I found an article on upubuntu that helped me.
 <img src = "https://i.imgur.com/z8jwAB9.png"></img>
 <li> Enter the below two commands. </li>
 
-```python
+```bash
 sudo nvidia-xconfig 
 sudo nvidia-xconfig --cool-bits=4
 ```
