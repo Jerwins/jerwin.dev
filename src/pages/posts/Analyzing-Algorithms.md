@@ -1,7 +1,7 @@
 ---
-title: "[DS & A] Series: Analysis of Algorithms - #1"
+title: "Analysis of Algorithms"
 date: '2019-10-10'
-spoiler: "First of many blog posts of the Data Structures and Algorithms series."
+spoiler: "First of many blog posts about Data Structures and Algorithms series."
 ---
 
 ## What is an Algorithm? 

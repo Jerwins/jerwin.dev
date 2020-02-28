@@ -1,5 +1,5 @@
 ---
-title: "[DS & A] Series: Big O notation - #2"
+title: "Big O notation"
 date: '2019-10-11'
 spoiler: "Learn more about the purpose and usage of Big O notation"
 ---
