@@ -52,10 +52,11 @@ export default function BlogIndex(props) {
           <br />
           💻 My <a href="https://github.com/jerwins">GitHub</a> page
           <br />
-          🦄 Follow me on <a href="https://twitter.com/Jerwinsamuel">Twitter</a>
+          🦄 Find me on{' '}
+          <a href="https://in.linkedin.com/in/jerwinsamuel">LinkedIn</a>
           <br />
           😍 <a href="https://jerwin.dev/"> Home </a> -{' '}
-          <a href="https://jerwin.dev/tags/project">projects</a> -{' '}
+          <a href="https://jerwin.dev/project">projects</a> -{' '}
           <a href="https://jerwin.dev/About/">about me</a> -{' '}
           <a href="mailto: jerwinsamuel@gmail.com">contact</a>
         </p>
