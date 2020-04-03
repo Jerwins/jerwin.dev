@@ -1,6 +1,6 @@
 ---
 title: "Stack Data Structure"
-date: '2019-10-05'
+date: '2019-10-08'
 spoiler: "Understanding and implementation of Stack data structure in Python."
 ---
 
@@ -13,7 +13,7 @@ In a stack data strucutre, adding and removing elements happens on top of the st
 
 So as you can tell by that definition, a pointer is always referenced to the top of the stack to do these operations for maximum efficiency. Stack's mechanism or property is popularly known as LIFO, which means `Last In First Out` (LIFO).
 
-You can also implement other operations on a stack like `peek` in a stack, meaning: `fetch top element in a stack`, create an operation to display all elements of a stack or check if the stack is empty.
+You can also implement other operations like `peek` in a stack, meaning: `fetch top element in a stack`, display all elements of a stack or check if the stack is empty.
 
 Stack data structure can be implemented using arrays and linked lists.
 
@@ -90,7 +90,7 @@ print(sampleStack.peek(),
 sampleStack.display()
 
 
-# Output:
+# Output
 
 77 Peek element = Recently pushed to the stack / Top element in a stack
 77 -> 49 -> 3 -> 140 ->
