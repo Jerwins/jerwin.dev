@@ -1,6 +1,6 @@
 ---
 title: "Big O notation"
-date: '2019-10-11'
+date: '2019-10-03'
 spoiler: "Learn more about the purpose and usage of Big O notation"
 ---
 
