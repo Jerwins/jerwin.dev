@@ -1,6 +1,6 @@
 ---
 title: "Stack Data Structure"
-date: '2019-10-08'
+date: '2019-10-11'
 spoiler: "Understanding and implementation of Stack data structure in Python."
 ---
 
