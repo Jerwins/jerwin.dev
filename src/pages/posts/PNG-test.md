@@ -5,3 +5,4 @@ spoiler: "Test in progress."
 ---
 
 <img src = "stack.png" />
+<meta property="og:image" content="stack.png" />
